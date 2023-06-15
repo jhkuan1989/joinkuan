@@ -726,13 +726,13 @@ a {
 }
 
 @media (min-width: 992px) {
-  .cid-tHdz2OrXQI .weddingimage {
+  .weddingimage {
     width: 75%!important;
   }
 }
 
 @media (min-width: 1200px) {
-  .cid-tHdz2OrXQI .weddingimage {
+  .weddingimage {
     width: 50%!important;
   }
 }
