@@ -724,3 +724,15 @@ a {
   text-align: center;
   color: #f9b6b6;
 }
+
+@media (min-width: 992px) {
+  .cid-tHdz2OrXQI .weddingimage {
+    width: 75%!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cid-tHdz2OrXQI .weddingimage {
+    width: 50%!important;
+  }
+}
