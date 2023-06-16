@@ -16,7 +16,11 @@ var countdown = setInterval(function() {
   var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
   // Display the countdown in the "countdown" element
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  //document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("countdownD").innerHTML = days;
+  document.getElementById("countdownH").innerHTML = hours;
+  document.getElementById("countdownM").innerHTML = minutes;
+  document.getElementById("countdownS").innerHTML = seconds;
 
   // If the countdown is finished, display a message
   if (timeRemaining < 0) {
